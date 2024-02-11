@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    height: 3000px;
+    margin: auto;
+    padding: 0;
+    background: linear-gradient(155deg, #ddc8ba, #d2b7a4, #bc9579, #885f43,#312218, #050302 );
+    overflow: auto;
+}
+
+.header{
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #bc9579;
+    
+}
+
+.header a{
+    font-size: 20px;
+    font-weight: 10;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.header a:hover{
+    color: brown;
+}
+
+.nav{
+    margin-left: 90%;
+    margin-top: -20px;
+    word-spacing: 10px;
+}
+
+.fb{
+    height: 50px;
+    width: auto;
+}
+
+.twit{
+    border-radius: 500px;
+    height: 50px;
+    width: auto;
+}
+
+.fb .twit:hover{
+    cursor: pointer;
+}
+
+.logo{
+    padding-left: 90px;
+}
+
+.main{
+    margin: 150px;
+    margin-left: 200px;
+    margin-right: 40%;
+    padding: 10px 15px 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/09/16/52280-coffee-748x468.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+
+.sub{
+    padding-left: 80px;
+    padding-top: -70px;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    padding-left: 80px;
+    color: white;
+    
+}
+
+
+
+.Login {
+    height: 20px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.Login:hover{
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.maincoffee{
+    height: 60rem;
+    width: 100%;
+    position: relative;
+    border-radius: 600px;
+}
+
+.container{
+    width: 85vim;
+    position: absolute;
+    transform: translate(-60%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px #bc9579;
+    margin-top: 80%;
+}
+
+.wrapper{
+    width: 100%;
+    display:flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.featured{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 50px;
+}
+
+.featured ul{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.featured li{
+    margin: 10px;
+}
+
+.slider{
+    position: absolute;
+    display: inline-block;
+    height: 2.5em;
+    overflow: hidden;
+    vertical-align: middle;
+    mask-image: linear-gradient(transparent, white,white, white, transparent);
+    mask-mode:alpha;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.welcome{
+    flex:  1 1 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.words{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation-name: slice;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+.word{
+    display: block;
+    line-height: 1.3em;
+    text-align: left;
+    font-size: 100px;
+}
+
+@keyframes slice {
+    0%,
+    27% {transform: translateY(0%); }
+
+    33%,
+    60% { transform: translateY(-25%); }
+
+    66%,
+    93% {transform: translateY(-50%); }
+
+    100% {transform: translateY(-75%); }
+    
+}
+
+
